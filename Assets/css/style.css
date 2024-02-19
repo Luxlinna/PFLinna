@@ -13,6 +13,8 @@
     --text-color-light: hsl(207, 4%, 56%);
     --body-color: hsl(207, 4%, 99%);
     --container-color: hsl(207, 4%, 95%);
+    --extra-color: hsl(101, 62%, 24%);
+    --extra-color-heighlight: hsl(50, 75%, 45%);
 
     /* Change the first number */
     /* Blue: 207 , purple: 250 , pink: 356 , Teal: 174 */
@@ -203,7 +205,7 @@ body.dark-theme{
     justify-content: space-between;
     align-items: center;
     background-color: var(--body-color);
-    box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
+    box-shadow: 0 4px 20px hsla(207, 24%, 35%, .2);
     padding-inline: 1.5rem;
     border-radius: 3rem;
     transition: background .4s; /* For dark mode animation*/
@@ -211,11 +213,12 @@ body.dark-theme{
 .nav__logo,
 .nav__toggle,
 .nav__close{
-    color: var(--title-color);
+    color: var(--extra-color);
 }
 .nav__logo{
     font-family: var(--title-font);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
+    font-size: var(--h1-font-size);
 }
 .nav__toggle{
     display: flex;
@@ -789,7 +792,7 @@ skills__blog{
     color: hsl(4, 71%, 50%);
 }
 .color-blue{
-    color: (hsl(207, 56%, 45%));
+    color: hsl(207, 56%, 45%);
 }
 
 /* === FOOTER === */
